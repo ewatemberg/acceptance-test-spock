@@ -141,6 +141,10 @@
                 <configuration>
                     <url>jdbc:h2:file:./target/foobar</url>
                     <user>sa</user>
+                    <schemas>
+                        <schema>foo</schema>
+                        <schema>foo_test</schema>
+                    </schemas>
                 </configuration>
                 <dependencies>
                     <dependency>
