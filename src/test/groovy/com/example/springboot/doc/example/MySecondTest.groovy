@@ -13,8 +13,8 @@ class MySecondTest extends Specification {
                 ]
         ]
 
-        expect: 'su primer lenguaje es Java'
-        info.lenguajes.nombre.first() == 'Java'
+        expect: 'su primer lenguaje es Groovy'
+        info.lenguajes.nombre.first() == 'Groovy'
     }
 
 }
