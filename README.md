@@ -6,6 +6,9 @@ Este proyecto contiene algunso ejemplos de tests funcionales realizados con Spoc
 
 * [Introducción](#Introducción)
 * [Entorno](#Entorno)
+* [Run](#Run)
+* [01 - My First Test]()
+
 
 ### Introdución
 No es ninguna sorpresa que en el mundo Java la herramienta de test más utilizada sea JUnit si tenemos en cuenta que fue creada hace más de 15 años. Esto, sin embargo, no implica que sea la mejor, sino que en muchas ocasiones seguimos utilizando las mismas herramientas por inercia o porque aquí siempre se ha hecho esto así sin plantearnos si existen alternativas mejores. Una de estas alternativas es [Spock](https://github.com/spockframework/spock).
@@ -86,7 +89,7 @@ mvn test
 mvn springboot:run
 ```  
 
-[swagger]()
+[swagger](http://localhost:8080/swagger-ui.html)
 
 ###### Fuente
 
