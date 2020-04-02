@@ -1,12 +1,9 @@
-package com.example.springboot.resource
+package com.example.springboot.resource.atdd
 
 import com.example.springboot.mock.PersonPostMock
-import com.example.springboot.repository.PersonRepository
-import com.example.springboot.service.PersonService
-import com.example.springboot.service.impl.PersonServiceImpl
+import com.example.springboot.resource.PersonResource
 import org.springframework.beans.factory.BeanFactory
 import org.springframework.beans.factory.annotation.Autowired
-import org.springframework.http.HttpStatus
 
 class CreatePersonResourceTest extends com.example.springboot.config.AcceptanceSpecification {
 
