@@ -19,9 +19,9 @@ No es ninguna sorpresa que en el mundo Java la herramienta de test más utilizad
 Spock es un framework de tests basado en Groovy que podemos utilizar para testear tanto aplicaciones Java como Groovy. Con Spock podemos escribir tests muy expresivos, fáciles de leer y mantener. Todo ello es posible por dos motivos principalmente: el magnífico DSL que proporciona Spock y la potencia de Groovy, lenguaje con el que escribimos los tests.
 Proporciona un runner de JUnit por lo que es compatible con cualquier herramienta, IDE y servidor de integración continua que utilicemos actualmente con JUnit.
 
-Antes que nada, repasemos la piramide
+Antes que nada, repasemos 
 
-![](https://github.com/ewatemberg/java-4-beginners/blob/master/docs/img/Clase.png?raw=true)
+![](https://github.com/ewatemberg/functional-test-spock/blob/master/doc/img/Ideal%20Test%20Pyramid.jpeg?raw=true)
 
 ### Entorno
 Empezando con Spock
