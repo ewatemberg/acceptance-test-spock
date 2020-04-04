@@ -4,6 +4,7 @@ import com.example.springboot.config.ApiVersion;
 import com.example.springboot.exception.ApiError;
 import com.example.springboot.exception.ApiException;
 import com.example.springboot.exception.ApiSubError;
+import javassist.NotFoundException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
@@ -20,8 +21,8 @@ public class BaseResource {
         return new ApiException(new ApiError<>(HttpStatus.NOT_FOUND, String.format("NOT FOUND", resource, id)));
     }
 
-    private ResponseEntity<ApiError<?>> handleError(HttpStatus status, String mensaje) {
-        ApiError<?> error = new ApiError<>(status).addSubError(new ApiSubError(mensaje));
+    private ResponseEntity<ApiError<?>> handleError(HttpStatus status, String msg) {
+        ApiError<?> error = new ApiError<>(status).addSubError(new ApiSubError(msg));
         return new ResponseEntity<>(error, status);
     }
 
@@ -30,4 +31,5 @@ public class BaseResource {
         log.error("The value of {} is not valid.", ex.getName(), ex);
         return handleError(HttpStatus.BAD_REQUEST, "The value of '" + ex.getName() + "' is valid");
     }
+
 }
