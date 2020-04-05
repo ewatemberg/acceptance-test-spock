@@ -1,6 +1,6 @@
-# Functional Test with Spock & Spring Boot
+# Acceptance Test with Spock & Spring Boot
 
-Este proyecto contiene algunso ejemplos de tests funcionales realizados con Spock.
+Este proyecto contiene algunos ejemplos de tests de aceptación realizados con Spock.
 
 ## Indice
 

@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>functional-test-spock</artifactId>
+    <artifactId>acceptance-test-spock</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>functional-test-spock</name>
-    <description>Tests funcionales con Spock y Spring Boot</description>
+    <name>acceptance-test-spock</name>
+    <description>Tests de aceptación con Spock y Spring Boot</description>
 
     <properties>
         <java.version>11</java.version>
