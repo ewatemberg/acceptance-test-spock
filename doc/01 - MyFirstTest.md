@@ -34,6 +34,13 @@ void 'invertir una cadena de texto'() {
 }   
 ```
 
+#### Blocks / Phases
+Spock tiene soporte incorporado para implementar cada una de las fases conceptuales de un test. 
+Los bloques comienzan con una etiqueta y se extienden hasta el comienzo del siguiente bloque o hasta el final del método. Hay seis tipos de bloques: **setup**, **when**, **then**, **expect**, **cleanup**, y **where** 
+
+![](https://github.com/ewatemberg/functional-test-spock/blob/master/doc/img/Blocks2Phases.png?raw=true)
+
+
 #### ¿Y si falla un test?
 Si pensamos en TDD, sabemos que el ciclo de test sería escribir un test que falle, escribir el código mínimo que hace que el test pase y finalmente refactorizar el código.
 
